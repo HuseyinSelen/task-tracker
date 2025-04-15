@@ -18,7 +18,7 @@ Users can add, complete, and delete tasks with a clean, responsive user interfac
 
 ## 📸 Screenshot
 
-> ![App Screenshot](/Screenshot.png)
+> ![App Screenshot](/screenshot.png)
 
 
 ---
@@ -40,4 +40,21 @@ Users can add, complete, and delete tasks with a clean, responsive user interfac
 
 ```bash
 git clone https://github.com/your-username/task-tracker.git
-cd task-tracker
+cd task-tracker 
+
+# For backend
+cd backend
+npm install
+
+# For frontend
+cd ../frontend
+npm install
+
+# Start backend
+cd ../backend
+npm start
+
+# Start frontend (in a new terminal)
+cd ../frontend
+npm start
+
