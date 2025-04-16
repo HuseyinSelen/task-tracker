@@ -34,27 +34,38 @@ Users can add, complete, and delete tasks with a clean, responsive user interfac
 
 ---
 
-## 📦 Installation & Setup
+# 📦 Installation & Setup
 
-### 1. Clone the repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/task-tracker.git
 cd task-tracker 
-
-# For backend
+```
+## 2. Install dependencies
+### For backend
+```bash
 cd backend
 npm install
-
-# For frontend
+```
+### For frontend
+```bash
 cd ../frontend
 npm install
-
-# Start backend
+```
+## 3. Start the application
+### Start backend
+```bash
 cd ../backend
 npm start
-
-# Start frontend (in a new terminal)
+```
+### Start frontend (in a new terminal)
+```bash
 cd ../frontend
 npm start
+```
+
+### 📬 Contact
+Feel free to fork, star or contact me via GitHub for feedback!
+
 
